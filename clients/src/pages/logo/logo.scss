@@ -1,0 +1,102 @@
+.logo{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/84526d58-475e-4e6f-9c81-d2d78ddce803/ab7cd7ca-aaef-41ca-9923-448e546cbed0/UA-uk-20221228-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+
+    img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 300px;
+    }}
+    .box{
+        
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        position:absolute;
+        left: 0;
+        top:0;
+        color:white;
+        height: 100%;
+        width: 100%;
+
+        form{
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 30px;
+            background-color: rgba($color: #000000, $alpha: 0.8);
+            .sing-in{
+                display: flex;
+                flex-direction: column;
+               
+                padding: 30px 10px;
+               
+                
+                .title{
+                    font-size: 30px;
+                    padding: 20px;
+                }
+                input{
+                    background: rgba($color: #504c4c, $alpha: 0.87);
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 10px;
+                    margin: 6px;
+                    height: 40px;
+                  
+                   
+                }
+    
+                button{
+                    background: rgba($color: #b41e1e, $alpha: 1);
+                    border: none;
+                    color: white;
+                    border-radius: 5px;
+                    padding: 10px 10px;
+                    margin: 6px;
+                }
+    
+            }
+            .remember{
+                
+                font-size: 10px;
+               padding: 10px;
+              
+            
+                .checkbox{
+                    font-size: 10px;
+                }
+                span{
+                    padding-right: 20px;
+                }
+            }
+            .info{
+                display: flex;
+                flex-direction: column;
+               
+                padding: 30px 10px;
+                justify-content: center;
+                align-items: center;
+    
+                span{
+                    color:#504c4c;
+                    font-size: 10px;
+                    align-items: center;
+                }
+                a{
+                color: aliceblue;
+    
+                }
+        }
+
+       
+
+        }
+    }
+
